@@ -1,9 +1,9 @@
 import Categorias from "./components/categorias/Categorias";
-import Footer from "./components/Footer";
-import Hero from "./components/Hero";
-import Layout from "./components/Layout";
-import Navbar from "./components/Navbar";
-import CardsProductos from "./components/Productos";
+import Footer from "./components/Footer/Footer";
+import Hero from "./components/Hero/Hero";
+import Layout from "./components/Layout/Layout";
+import Navbar from "./components/Navbar/Navbar";
+import CardsProductos from "./components/Productos/CardsProductos";
 
 function App() {
   return (

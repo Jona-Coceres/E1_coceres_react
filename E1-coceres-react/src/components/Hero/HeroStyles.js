@@ -48,7 +48,7 @@ export const HeroImageContainerStyled = styled.div`
     padding-bottom: 75px;
   }
 
-  @media (max-width: 968px) {
+  @media (max-width: 960px) {
     display: none;
   }
 `;
