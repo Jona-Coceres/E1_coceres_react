@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
     :root {
         --orange-bg: #2f2618;
         --orange: #ff9d01;
+        --card-grey: #e9e9e9;
         --magenta: #ff005c;
         --gray-bg: #2b2b2c;
         --btn-gradient: linear-gradient(82deg,#ffa100,#fb103d);
