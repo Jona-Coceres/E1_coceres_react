@@ -15,7 +15,7 @@ function Hero() {
         <p>Busca lo que quieras y Nucba te quedes sin comida</p>
       </HeroTextContainerStyled>
       <HeroImageContainerStyled>
-        <img src="#" alt="" />
+        <img src="https://i.ibb.co/yd3KdmH/V8-Slid2for50v2.png" alt="" />
       </HeroImageContainerStyled>
     </HeroContainerStyled>
   );
