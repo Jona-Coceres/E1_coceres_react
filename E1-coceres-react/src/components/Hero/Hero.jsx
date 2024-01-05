@@ -10,9 +10,9 @@ function Hero() {
   return (
     <HeroContainerStyled>
       <HeroTextContainerStyled>
-        <h1>Si tenes Zappi</h1>
-        <h2>tenes Nucba</h2>
-        <p>Busca lo que quieras y Nucba te quedes sin comida</p>
+        <h1>Bienvenidos!</h1>
+        <h2>DISQUERÍA ESPECIALIZADA EN VINILOS</h2>
+        <p>Aprovechá nuestros envíos a todo el país!</p>
       </HeroTextContainerStyled>
       <HeroImageContainerStyled>
         <img src="https://i.ibb.co/yd3KdmH/V8-Slid2for50v2.png" alt="" />

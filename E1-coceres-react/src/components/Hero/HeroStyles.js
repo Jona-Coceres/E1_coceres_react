@@ -42,10 +42,10 @@ export const HeroTextContainerStyled = styled.div`
 `;
 
 export const HeroImageContainerStyled = styled.div`
-  width: 40%;
+  width: 60%;
+  padding-top: 30px;
   img {
     width: 100%;
-    padding-bottom: 75px;
   }
 
   @media (max-width: 960px) {

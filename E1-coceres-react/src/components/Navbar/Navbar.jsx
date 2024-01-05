@@ -28,22 +28,21 @@ function Navbar() {
         <LinksContainerStyled>
           <HomeContainerStyled>
             <a href="#">
-              <LinkContainerStyled Home>
-                <HiHome />
-              </LinkContainerStyled>
+              <LinkContainerStyled>Home</LinkContainerStyled>
+            </a>
+            <a href="#">
+              <LinkContainerStyled>Vinilos</LinkContainerStyled>
             </a>
           </HomeContainerStyled>
 
           <UserNavStyled>
             <UserContainerStyled>
-              <SpanStyled>
-                Iniciar Sesion
-              </SpanStyled>
+              <FaUserAlt />
+              <SpanStyled>Iniciar Sesión</SpanStyled>
             </UserContainerStyled>
-            <FaUserAlt/>
           </UserNavStyled>
           <MenuContainerStyled>
-            <AiOutlineMenu/>
+            <AiOutlineMenu />
           </MenuContainerStyled>
         </LinksContainerStyled>
       </NavbarContainerStyled>

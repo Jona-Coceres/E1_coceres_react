@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const NavbarContainerStyled = styled.div`
 	height: 100px;
-	background-color: #18191a;
+	/* background-color: #18191a; */
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -22,8 +22,8 @@ export const LinksContainerStyled = styled.div`
 		padding: 1rem 1.5rem;
 	}
 	a:first-child {
-		background: var(--orange-bg);
-		border-radius: 1rem;
+		/* background: var(--orange-bg);
+		border-radius: 0.2rem; */
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -33,12 +33,13 @@ export const LinksContainerStyled = styled.div`
 
 export const LinkContainerStyled = styled.div`
 	font-size: 1.2rem;
-	color: ${(props) => (props.home ? "#ff9d01" : "#ff9300")};
+	color: ${(props) => (props.home ? "#ff9d01" : "#747474")};
 `;
 
 export const UserContainerStyled = styled(LinkContainerStyled)`
 	display: flex;
 	align-items: center;
+	gap: 5px;
 `;
 
 export const HomeContainerStyled = styled(LinkContainerStyled)`
@@ -63,8 +64,8 @@ export const UserNavStyled = styled.div`
 	gap: 15px;
 	cursor: pointer;
 	span {
-		color: white;
-		font-size: 1rem;
+		color: #747474;
+		font-size: 1,2rem;
 		margin-right: 20px;
 	}
 	@media (max-width: 768px) {

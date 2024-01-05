@@ -18,15 +18,15 @@ export const GlobalStyles = createGlobalStyle`
     body {
         margin: 0;
         padding: 0;
-        background-color: #131415;
-        font-family: "Montserrat",sans-serif;
-        color: white;
+        background-color: #f1f1f1;
+        font-family: "Poppins",sans-serif;
+        color: #747474;
         overflow-x: hidden;
     }
 
     a {
         text-decoration: none;
-        color: white;
+        color: #ff8a3c;
     }
     a:visited {
         color:white;
